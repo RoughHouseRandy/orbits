@@ -12,3 +12,4 @@
  * @param speed the speed at which to move the sprite in each dimension
  */
 void dPadMoveSprite(bn::sprite_ptr &sprite, bn::fixed speed);
+bool juggling_activated();

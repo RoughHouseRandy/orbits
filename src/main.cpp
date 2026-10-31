@@ -3,7 +3,6 @@
 #include <bn_color.h>
 #include <bn_keypad.h>
 #include <bn_fixed_point.h>
-#include <bn_sprite_ptr.h>
 #include <bn_vector.h>
 
 #include "Center.h"

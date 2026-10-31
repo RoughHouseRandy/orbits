@@ -1,5 +1,6 @@
 #include "movement.h"
 #include <bn_keypad.h>
+
 /**
  * Moves sprite up/down/left/right based on the d-pad being held.
  *
@@ -32,4 +33,12 @@ void dPadMoveSprite(bn::sprite_ptr &sprite, bn::fixed speed)
     }
 
     sprite.set_position(sprite.position() + bn::fixed_point(dx, dy));
+}
+
+bool juggling_activated(){
+    bool active = false;
+    if(bn::keypad::a_pressed()){
+        active = true;
+    }
+    return active;
 }
