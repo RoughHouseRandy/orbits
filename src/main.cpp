@@ -28,7 +28,7 @@ int main()
     bn::regular_bg_ptr bg = bn::regular_bg_items::tower.create_bg(0,0);
     bn::regular_bg_animate_action<7> particles = bn::create_regular_bg_animate_action_forever(
         bg,
-        6,
+        7,
         bn::regular_bg_items::tower.map_item(), 0, 1, 2, 3, 4, 5, 6 );
 
     Center center = Center({30, 40}, .05, 2);
